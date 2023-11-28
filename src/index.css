@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/*Css filters*/
+.color-btn {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background: #222;
+  margin-right: 0.5rem;
+  border: none;
+  cursor: pointer;
+  opacity: 0.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.color-btn.active {
+  opacity: 1;
+}
+
+.color-btn svg {
+  font-size: 0.5rem;
+  color: #fff;
+}
+
+.active {
+  border-bottom: solid 1px hsl(210, 22%, 49%);
+}
